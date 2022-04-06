@@ -8,12 +8,6 @@
     <div
       class="px-8 mx-auto mt-12 prose sm:px-6 md:px-4 lg:px-2 xl:px-0 xl:prose-xl lg:prose-lg md:prose-md"
     >
-      <h3>
-        {{ page.mainpitch.title }}
-      </h3>
-      <p>
-        {{ page.mainpitch.description }}
-      </p>
       <h2>
         {{ page.title }}
       </h2>
@@ -27,7 +21,7 @@
           class="flex flex-col items-center px-6 border rounded-lg shadow justify-top"
         >
           <img class="h-32" :src="blurb.image" />
-          <p class="mt-2 text-justify">{{ blurb.text }}.</p>
+          <p class="mt-2 text-justify">{{ blurb.text }}</p>
         </div>
       </div>
       <p class="text-center">

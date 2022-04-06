@@ -5,13 +5,13 @@
       <div class="flex flex-col justify-center space-y-4 h-hero">
         <h2
           v-if="heading"
-          class="px-4 text-2xl font-extrabold text-white bg-kaldi sm:text-3xl md:text-4xl"
+          class="px-4 text-2xl font-extrabold text-white bg-kaldi sm:text-3xl md:text-4xl testStyle"
         >
           {{ heading }}
         </h2>
         <h3
           v-if="subheading"
-          class="px-4 text-lg text-white bg-kaldi sm:text-xl md:text-2xl"
+          class="px-4 text-lg text-white bg-kaldi sm:text-xl md:text-2xl testStyle"
         >
           {{ subheading }}
         </h3>
@@ -42,5 +42,10 @@ export default {
 <style scoped>
 .h-hero {
   height: 25rem;
+}
+
+.testStyle {
+  background-color: black;
+  /* color: goldenrod; */
 }
 </style>

@@ -11,7 +11,7 @@
       >
         <div>
           <nuxt-link to="/" class="flex">
-            <img class="h-5" src="/img/logo.svg" alt="Workflow" />
+            <img class="h-5" src="/img/t-fitz-logo.png" alt="Workflow" />
           </nuxt-link>
         </div>
         <div class="-my-2 -mr-2 md:hidden">
@@ -48,28 +48,28 @@
               About
             </nuxt-link>
             <nuxt-link
+              to="/blog"
+              class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+            >
+              Inspo
+            </nuxt-link>
+            <!-- <nuxt-link
               to="/products"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
               Products
-            </nuxt-link>
+            </nuxt-link> -->
             <nuxt-link
-              to="/blog"
+              to="/beforeAfter"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
-              Blog
+              Before & After
             </nuxt-link>
             <nuxt-link
               to="/contact"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
               Contact
-            </nuxt-link>
-            <nuxt-link
-              to="/beforeAfter"
-              class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
-            >
-              Before & After
             </nuxt-link>
           </nav>
           <div class="flex items-center space-x-8">
