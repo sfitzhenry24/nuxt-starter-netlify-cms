@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
@@ -96,4 +96,4 @@ pricing:
         - Unlimited varieties
       plan: Custom
       price: '??'
----
+--- -->
