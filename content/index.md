@@ -1,6 +1,6 @@
 ---
 title: Welcome to the T. Fitz Design Experience!
-image: /img/livingRoomStock.jpg
+image: /img/crosstownkitchen.png
 # heading: T. Fitz Design
 # subheading: See how you can spruce up your home without breaking your budget
 # mainpitch:

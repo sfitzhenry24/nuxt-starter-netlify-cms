@@ -1,5 +1,9 @@
 <template>
   <div>
+    <script
+      src="https://kit.fontawesome.com/43036f8826.js"
+      crossorigin="anonymous"
+    ></script>
     <Hero
       :heading="page.heading"
       :subheading="page.subheading"
@@ -20,8 +24,11 @@
           :key="index"
           class="flex flex-col items-center px-6 border rounded-lg shadow justify-top"
         >
-          <img class="h-32" :src="blurb.image" />
+          <!-- <img class="h-32" :src="blurb.image" /> -->
           <p class="mt-2 text-justify">{{ blurb.text }}</p>
+          <!-- <span style="font-size: 48px; color: Dodgerblue">
+            <i class="fa-solid fa-house-chimney"></i>
+          </span> -->
         </div>
       </div>
       <!-- <p class="text-center">

@@ -1,5 +1,9 @@
 <template>
   <div>
+    <script
+      src="https://kit.fontawesome.com/43036f8826.js"
+      crossorigin="anonymous"
+    ></script>
     <Hero
       :heading="page.heading"
       :subheading="page.subheading"
@@ -20,9 +24,25 @@
       <p>
         {{ page.description }}
       </p>
+      <h4>
+        {{ page.subpitch }}
+      </h4>
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <div
           v-for="(example, index) in page.pics.examples"
+          :key="index"
+          class="flex flex-col items-center px-6 border rounded-lg shadow justify-top"
+        >
+          <img class="h-64" :src="example.image" />
+          <p class="mt-2 text-justify">{{ example.text }}</p>
+        </div>
+      </div>
+      <h4>
+        {{ page.subpitch2 }}
+      </h4>
+      <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+        <div
+          v-for="(example, index) in page.pics.examplesRooms"
           :key="index"
           class="flex flex-col items-center px-6 border rounded-lg shadow justify-top"
         >
