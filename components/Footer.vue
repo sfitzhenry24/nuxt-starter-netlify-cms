@@ -6,7 +6,7 @@
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <ul class="mt-4 space-y-4">
-                <li>
+                <!-- <li>
                   <nuxt-link
                     to="/"
                     class="text-base leading-6 text-gray-300 hover:text-white"
@@ -21,7 +21,7 @@
                   >
                     About
                   </nuxt-link>
-                </li>
+                </li> -->
                 <!-- <li>
                   <nuxt-link
                     to="/products"
@@ -44,7 +44,7 @@
             </div>
             <div class="mt-12 md:mt-0">
               <ul class="mt-4 space-y-4">
-                <li>
+                <!-- <li>
                   <nuxt-link
                     to="/blog"
                     class="text-base leading-6 text-gray-300 hover:text-white"
@@ -59,7 +59,7 @@
                   >
                     Contact
                   </nuxt-link>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>

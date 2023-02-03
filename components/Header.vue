@@ -9,11 +9,11 @@
       <div
         class="flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start md:space-x-10"
       >
-        <div>
+        <!-- <div>
           <nuxt-link to="/" class="flex">
             <img class="h-5" src="/img/t-fitz-logo.png" alt="Workflow" />
           </nuxt-link>
-        </div>
+        </div> -->
         <div class="-my-2 -mr-2 md:hidden">
           <button
             type="button"
@@ -41,7 +41,7 @@
           class="hidden md:flex-1 md:flex md:items-center md:justify-between md:space-x-12"
         >
           <nav class="flex space-x-10">
-            <nuxt-link
+            <!-- <nuxt-link
               to="/about"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
@@ -52,25 +52,25 @@
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
               Inspo
-            </nuxt-link>
+            </nuxt-link> -->
             <!-- <nuxt-link
               to="/products"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
               Products
             </nuxt-link> -->
-            <nuxt-link
+            <!-- <nuxt-link
               to="/beforeAfter"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
               Before & After
-            </nuxt-link>
-            <nuxt-link
+            </nuxt-link> -->
+            <!-- <nuxt-link
               to="/contact"
               class="text-base font-medium leading-6 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
             >
               Contact
-            </nuxt-link>
+            </nuxt-link> -->
           </nav>
           <div class="flex items-center space-x-8">
             <a href="mailto: tcfitzhenry1@gmail.com">
@@ -140,7 +140,7 @@
       </div>
 
       <!-- HIDDEN MENU, NOT CURRENTLY  USING -->
-      <div
+      <!-- <div
         class="absolute inset-x-0 top-0 z-50 p-2 transition origin-top-right transform md:hidden"
         :class="{ hidden: !menuOpen }"
       >
@@ -255,7 +255,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

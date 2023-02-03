@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 .h-hero {
-  height: 35rem;
+  height: 37rem;
 }
 
 .testStyle {
